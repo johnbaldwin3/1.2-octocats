@@ -1,4 +1,147 @@
-body {
-  background-color: blue
-  ;
+img {
+max-width: 100%;
 }
+
+body {
+  font-family: helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.octodex {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.octodex li {
+  list-style: none;
+}
+.octocat img {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  /*box-shadow: 0 1px 10px rgba(113,158,206,0.8);*/
+
+}
+
+.authors {
+  display: inline-block;
+  text-align: right;
+  padding-left: 0px;
+}
+
+.octocat a {
+  padding: 0;
+  margin: 0;
+}
+
+
+.image-caption a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.image-caption span {
+  color: #777;
+  font-weight: bold;
+  font-size: 16px;
+}
+.authors > li > a {
+  text-decoration: none;
+}
+
+.image-footer {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  bottom: 0px;
+  right: 1px;
+  left: -10px;
+  width: 100%;
+  width: 100%;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px 12px;
+  border-bottom: 1px solid lightgrey;
+}
+  .image-caption span {
+    position: relative;
+    top: -6px;
+  }
+
+  .image-caption > a {
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+    top: -6px;
+
+  }
+
+.image-number {
+  float: left;
+  color: #cacaca;
+  font-size: 16px;
+  margin: 5px 0;
+  .image-caption span {
+  position: relative;
+  top: -6px;
+}
+
+.image-caption > a {
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  top: -6px;
+
+}
+
+}
+
+.image-number::before {
+  content: "#" ;
+}
+
+.image-caption {
+  display: inline-block;
+
+  vertical-align: center;
+
+}
+
+.authors li {
+  display: inline-block;
+  list-style: none;
+}
+/*image changes*/
+.authors img {
+  display: inline-block;
+  width: 28px;
+  float: right;
+  border: none;
+  border-radius: 3px;
+
+
+
+}
+
+.octocat .image-footer:before {
+      content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #cacaca;
+    position: absolute;
+    right: 7px;
+    top: 0;
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
