@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box; /*how your brain thinks it works... */
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.octocat {
+  float: left;
+  width: 445px;
+  margin: 12px;
+}
+
+.octocat > a {
+    display: inline-block;
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.image-footer {
+  font-weight: bold;
+  border-bottom: 1px solid #C3C3C3;
+  margin:
+}
+
+.image-number {
+  float: left;
+  color: #C3C3C3;
+  margin-top: 12px;
+}
+
+.image-number::before {
+  content: "#";
+}
+
+.image-caption {
+  display: inline-block;
+}
+
+.image-caption {
+  color: #82888B;
+}
+
+.image-caption > a {
+  color: black;
+  text-decoration: none;
+}
+
+.authors {
+  display: inline-block;
+}
+
+.authors li {
+  display: inline-block;
+}
+
+.authors a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
